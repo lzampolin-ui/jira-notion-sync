@@ -2,7 +2,7 @@
 git init
 git add sync_jira_notion.py
 git add .github/workflows/sync.yml
-git commit -m "Initial commit: Jira-Notion sync"
+git commit -m "Initial commit:  Jira-Notion sync"
 git branch -M main
 git remote add origin https://github.com/lzampolin/jira-notion-sync.git
 git push -u origin main
