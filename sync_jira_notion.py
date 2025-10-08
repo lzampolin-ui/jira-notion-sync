@@ -70,7 +70,7 @@ def find_existing_page(jira_key):
         
         data = {
             "filter": {
-                "property": "Tickets",
+                "property": " Tickets",
                 "title": {
                     "contains": jira_key
                 }
