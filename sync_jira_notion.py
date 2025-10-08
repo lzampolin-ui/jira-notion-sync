@@ -24,7 +24,7 @@ print(f"NOTION_DATABASE_ID: {NOTION_DATABASE_ID}")
 def fetch_jira_issues():
     try:
         print("📋 Fetching issues from Jira...")
-      url = f"{JIRA_URL}/rest/api/3/search/jql"
+        url = f"{JIRA_URL}/rest/api/3/search/jql"
         auth = (JIRA_EMAIL, JIRA_API_TOKEN)
         headers = {"Accept": "application/json"}
         
